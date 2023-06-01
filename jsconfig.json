@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"allowJs": true,
+		"checkJs": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"lib": ["ES2020"],
+		"target": "es2020",
+		"module": "NodeNext",
+		"baseUrl": ".",
+		"types": []
+	},
+	"include": ["src"]
+}
+
+

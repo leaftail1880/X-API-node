@@ -1,7 +1,6 @@
 import "dotenv/config";
+import { NodeApp } from "./Net/node.js";
 
-// For /connect and /ws from minecraft (data goes from node)
-import "./websocket.js";
-
-// For http requests from minecraft (data goes from minecraft)
-import "./http.js";
+NodeApp.Route("ping", (req) => {
+	return { status: 200 };
+});
